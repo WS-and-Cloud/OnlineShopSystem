@@ -47,11 +47,6 @@
             return entity;
         }
 
-        public int SaveChanges()
-        {
-            return this.context.SaveChanges();
-        }
-
         private void ChangeState(T entity, EntityState state)
         {
             var entry = this.context.Entry(entity);

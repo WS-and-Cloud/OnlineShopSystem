@@ -4,20 +4,25 @@
 
     using OnlineShop.Data;
     using OnlineShop.Data.UnitOfWork;
+    using OnlineShop.Tests.UnitTests;
 
     public class BaseApiController : ApiController
     {
         private IOnlineShopData data;
 
+
         public BaseApiController()
-            : this(new OnlineShopData(new OnlineShopDbContext()))
+            : this(new OnlineShopData(new OnlineShopDbContext()), new AspNetUserIdProvider())
         {
         }
 
-        public BaseApiController(IOnlineShopData data)
+        public BaseApiController(IOnlineShopData data, IUserIdProvider userIdProvier)
         {
             this.Data = data;
+            this.UserIdProvider = userIdProvier;
         }
+
+        protected IUserIdProvider UserIdProvider { get; set; }
 
         protected IOnlineShopData Data
         {
