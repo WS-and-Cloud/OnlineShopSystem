@@ -1,9 +1,6 @@
+E:\Visual Studio[WorkSpace]\WS-Cloud\OnlineShop\OnlineShop.Data\bin\Debug\OnlineShop.Data.dll.config
 E:\Visual Studio[WorkSpace]\WS-Cloud\OnlineShop\OnlineShop.Data\bin\Debug\OnlineShop.Data.dll
 E:\Visual Studio[WorkSpace]\WS-Cloud\OnlineShop\OnlineShop.Data\bin\Debug\OnlineShop.Data.pdb
-E:\Visual Studio[WorkSpace]\WS-Cloud\OnlineShop\OnlineShop.Data\obj\Debug\OnlineShop.Data.csprojResolveAssemblyReference.cache
-E:\Visual Studio[WorkSpace]\WS-Cloud\OnlineShop\OnlineShop.Data\obj\Debug\OnlineShop.Data.dll
-E:\Visual Studio[WorkSpace]\WS-Cloud\OnlineShop\OnlineShop.Data\obj\Debug\OnlineShop.Data.pdb
-E:\Visual Studio[WorkSpace]\WS-Cloud\OnlineShop\OnlineShop.Data\bin\Debug\OnlineShop.Data.dll.config
 E:\Visual Studio[WorkSpace]\WS-Cloud\OnlineShop\OnlineShop.Data\bin\Debug\EntityFramework.dll
 E:\Visual Studio[WorkSpace]\WS-Cloud\OnlineShop\OnlineShop.Data\bin\Debug\EntityFramework.SqlServer.dll
 E:\Visual Studio[WorkSpace]\WS-Cloud\OnlineShop\OnlineShop.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
@@ -14,3 +11,6 @@ E:\Visual Studio[WorkSpace]\WS-Cloud\OnlineShop\OnlineShop.Data\bin\Debug\Entity
 E:\Visual Studio[WorkSpace]\WS-Cloud\OnlineShop\OnlineShop.Data\bin\Debug\EntityFramework.SqlServer.xml
 E:\Visual Studio[WorkSpace]\WS-Cloud\OnlineShop\OnlineShop.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 E:\Visual Studio[WorkSpace]\WS-Cloud\OnlineShop\OnlineShop.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Visual Studio[WorkSpace]\WS-Cloud\OnlineShop\OnlineShop.Data\obj\Debug\OnlineShop.Data.csprojResolveAssemblyReference.cache
+E:\Visual Studio[WorkSpace]\WS-Cloud\OnlineShop\OnlineShop.Data\obj\Debug\OnlineShop.Data.dll
+E:\Visual Studio[WorkSpace]\WS-Cloud\OnlineShop\OnlineShop.Data\obj\Debug\OnlineShop.Data.pdb

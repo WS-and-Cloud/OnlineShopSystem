@@ -15,11 +15,6 @@
     [RoutePrefix("api/ads")]
     public class AdsController : BaseApiController
     {
-        public AdsController()
-            : base()
-        {
-        }
-
         public AdsController(IOnlineShopData data, IUserIdProvider userIdProvider)
             : base(data, userIdProvider)
         {

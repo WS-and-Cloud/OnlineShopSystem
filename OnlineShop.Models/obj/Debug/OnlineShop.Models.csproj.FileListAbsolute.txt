@@ -11,4 +11,3 @@ E:\Visual Studio[WorkSpace]\WS-Cloud\OnlineShop\OnlineShop.Models\bin\Debug\Micr
 E:\Visual Studio[WorkSpace]\WS-Cloud\OnlineShop\OnlineShop.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 E:\Visual Studio[WorkSpace]\WS-Cloud\OnlineShop\OnlineShop.Models\obj\Debug\OnlineShop.Models.dll
 E:\Visual Studio[WorkSpace]\WS-Cloud\OnlineShop\OnlineShop.Models\obj\Debug\OnlineShop.Models.pdb
-E:\Visual Studio[WorkSpace]\WS-Cloud\OnlineShop\OnlineShop.Models\obj\Debug\OnlineShop.Models.csprojResolveAssemblyReference.cache

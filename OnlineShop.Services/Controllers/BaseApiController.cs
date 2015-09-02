@@ -11,10 +11,10 @@
         private IOnlineShopData data;
 
 
-        public BaseApiController()
-            : this(new OnlineShopData(new OnlineShopDbContext()), new AspNetUserIdProvider())
-        {
-        }
+        //public BaseApiController()
+        //    : this(new OnlineShopData(new OnlineShopDbContext()), new AspNetUserIdProvider())
+        //{
+        //}
 
         public BaseApiController(IOnlineShopData data, IUserIdProvider userIdProvier)
         {
