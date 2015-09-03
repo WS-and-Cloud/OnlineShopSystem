@@ -17,6 +17,7 @@
         [Required]
         public decimal Price { get; set; }
 
+        [Required]
         public IEnumerable<int> Categories { get; set; } 
     }
 }

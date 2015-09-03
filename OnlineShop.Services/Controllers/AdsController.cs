@@ -45,6 +45,12 @@
             }
 
             var currentUserId = this.UserIdProvider.GetUserId();    // Check if id is correct
+            var adType = this.Data.AdTypes.Find(model.TypeId);
+            if (adType == null)
+            {
+                return this.BadRequest("AdType with such id does not exists");
+            }
+
             var ad = new Ad
                      {
                          Name = model.Name,
@@ -52,13 +58,13 @@
                          Price = model.Price,
                          PostedOn = DateTime.Now,
                          Status = AdStatus.Open,
-                         TypeId = model.TypeId,
-                         OwnerId = currentUserId.ToString()
+                         TypeId = adType.Id,
+                         OwnerId = currentUserId
                      };
 
-            if (model.Categories == null)
+            if (model.Categories.Count() > 3 || model.Categories == null)
             {
-                return this.BadRequest("You need to provide at least 1 category id.");
+                return this.BadRequest("Categories must be in range [1..3]");
             }
 
             foreach (var categoryId in model.Categories)
@@ -74,7 +80,6 @@
 
             this.Data.Ads.Add(ad);
             this.Data.SaveChanges();
-            var test = this.Data.Ads.All().ToList();
             var result =
                 this.Data.Ads.All().Where(a => a.Id == ad.Id).Select(AllAdsViewModel.Create).FirstOrDefault();
             
